@@ -1,0 +1,5 @@
+﻿:: cmd_deployment.txt
+
+copy "C:\Projects\ATAS_indicators\ipc_ATAS_indicators\ipc_ATAS_indicators\obj\Debug\net8.0\ipc_ATAS_indicators.dll"  "C:\Users\%username%\AppData\Roaming\ATAS\Indicators\ipc_ATAS_indicators.dll" /Y
+
+PAUSE
