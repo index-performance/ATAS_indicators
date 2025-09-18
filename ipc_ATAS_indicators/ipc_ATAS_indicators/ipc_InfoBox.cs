@@ -29,10 +29,10 @@
         public decimal bXlow;
         public decimal bXclose;
 
-        public decimal bXvol;
-        public decimal bXdelta;
-        public decimal bXmaxd;
-        public decimal bXmind;
+        public decimal bXVol;
+        public decimal bXDelta;
+        public decimal bXmaxD;
+        public decimal bXminD;
         public decimal bXticks;
 
         public decimal bXmaxVol_Pi__Price;
@@ -102,10 +102,10 @@
             infoText = infoText + "Low:    " + bXlow.ToString()                                                + System.Environment.NewLine;
             infoText = infoText + "Close:  " + bXclose.ToString()                                              + System.Environment.NewLine;
             infoText = infoText                                                                                + System.Environment.NewLine;
-            infoText = infoText + "vol:    " + bXvol.ToString()                                                + System.Environment.NewLine;
-            infoText = infoText + "delta:  " + bXdelta.ToString()                                              + System.Environment.NewLine;
-            infoText = infoText + "maxd:   " + bXmaxd.ToString()                                               + System.Environment.NewLine;
-            infoText = infoText + "mind:   " + bXmind.ToString()                                               + System.Environment.NewLine;
+            infoText = infoText + "Vol:    " + bXVol.ToString()                                                + System.Environment.NewLine;
+            infoText = infoText + "Delta:  " + bXDelta.ToString()                                              + System.Environment.NewLine;
+            infoText = infoText + "maxD:   " + bXmaxD.ToString()                                               + System.Environment.NewLine;
+            infoText = infoText + "minD:   " + bXminD.ToString()                                               + System.Environment.NewLine;
             infoText = infoText + "ticks:  " + bXticks.ToString()                                              + System.Environment.NewLine;
             infoText = infoText                                                                                + System.Environment.NewLine;
             infoText = infoText + "maxVol_Pi__Price:  " + bXmaxVol_Pi__Price.ToString()                        + System.Environment.NewLine;
@@ -146,10 +146,10 @@
                 bXlow  = candle.Low;
                 bXclose = candle.Close;
 
-                bXvol   = candle.Volume;
-                bXdelta = candle.Delta;
-                bXmaxd  = candle.MaxDelta;
-                bXmind  = candle.MinDelta;
+                bXVol   = candle.Volume;
+                bXDelta = candle.Delta;
+                bXmaxD  = candle.MaxDelta;
+                bXminD  = candle.MinDelta;
                 bXticks = candle.Ticks;
 
 
